@@ -2,7 +2,6 @@ const navigation = {
   top1: {
     directions: {
       up: `center`
-     // down: `top2`
     },
     section: `#top1`
   },
@@ -62,10 +61,10 @@ const navigation = {
   },
   center: {
     directions: {
-      //up: `bottom1`,
-      //down: `top1`,
-      //left: `right1`,
-      //right: `left1`
+      up: `bottom1`,
+      down: `top1`,
+      left: `right1`,
+      right: `left1`
     },
     section: `#center`
   }
