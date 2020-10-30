@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://infolab.club/manifesto" version="1.0.5" viewmodes="maximized">
+    <tizen:application id="MruOZjMOtQ.App" package="MruOZjMOtQ" required_version="4.0"/>
+    <author href="https://infolab.club" email="hello@infolab.club">Info Lab</author>
+    <content src="index.html"/>
+    <description>Motorica watch app</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/input.rotating_bezel"/>
+    <icon src="icon.png"/>
+    <name>Manifesto</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="enable"/>
+</widget>

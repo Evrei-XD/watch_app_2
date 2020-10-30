@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Basic</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/roundslider.css">
+    <link rel="stylesheet" href="src/css/slider.css">
+</head>
+<body>
+<main class="main">
+
+    <section id="center" class="page gestures hidden">
+        <div class="gestures__wrapper">
+            <span class="gestures__arrow-container">
+                <img class="gestures__arrow" src="src/img/arrow-bottom.svg" alt="">
+            </span>
+            <h3 class="gestures__title">Коза</h3>
+            <span class="gestures__arrow-container">
+                <img class="gestures__arrow gestures__arrow--flipped" src="src/img/arrow-bottom.svg" alt="">
+            </span>
+        </div>
+        <div class="gestures__select-container">
+            <div class="gestures__select-wrapper" style="transform: rotate(0deg)">
+                <img class="gestures__select" src="src/img/select@2x.svg" alt="">
+            </div>
+        </div>
+        <div class="gestures__gestures-container">
+            <img class="gestures__gesture gestures__gesture--l1" src="src/img/gestures/l1.png" alt="">
+            <img class="gestures__gesture gestures__gesture--l2" src="src/img/gestures/l2.png" alt="">
+            <img class="gestures__gesture gestures__gesture--l3" src="src/img/gestures/l3.png" alt="">
+            <img class="gestures__gesture gestures__gesture--l4" src="src/img/gestures/l4.png" alt="">
+            <img class="gestures__gesture gestures__gesture--l5" src="src/img/gestures/l5.png" alt="">
+            <img class="gestures__gesture gestures__gesture--g1" src="src/img/gestures/g1.png" alt="">
+            <img class="gestures__gesture gestures__gesture--g2" src="src/img/gestures/g2.png" alt="">
+            <img class="gestures__gesture gestures__gesture--g3" src="src/img/gestures/g3.png" alt="">
+            <img class="gestures__gesture gestures__gesture--g4" src="src/img/gestures/g4.png" alt="">
+            <img class="gestures__gesture gestures__gesture--g5" src="src/img/gestures/g5.png" alt="">
+        </div>
+        <img class="gestures__selected-gesture" src="src/img/gestures/g3.png" alt="">
+    </section>
+
+    <section id="left1" class="page page--shadowed hidden">
+        <div class="container container--enfeeble">
+            <div class="page__wrapper"></div>
+        </div>
+        <div class="page__chart-wrapper">
+            <canvas class="page__chart" id="chart-enfeeble" width="360" height="180"></canvas>
+        </div>
+        <div class="page__panel page__panel--enfeeble">
+            <h2 class="page__title page__title--enfeeble">
+                Разжатие
+            </h2>
+        </div>
+        <span class="page__threshold page__threshold--enfeeble" style="top: 179px"></span>
+    </section>
+
+    <section id="left2" class="page page--shadowed hidden">
+        <div class="container container--squeeze">
+            <div class="page__wrapper"></div>
+        </div>
+        <div class="page__chart-wrapper">
+            <canvas class="page__chart" id="chart-squeeze" width="360" height="180"></canvas>
+        </div>
+        <div class="page__panel page__panel--squeeze">
+            <h2 class="page__title page__title--squeeze">
+                Сжатие
+            </h2>
+        </div>
+        <span class="page__threshold page__threshold--squeeze" style="top: 179px"></span>
+    </section>
+
+    <section id="top1" class="page hidden">
+        <div class="container container--info">
+            <div class="page__wrapper">
+                <p class="page__time">
+                    15:20
+                </p>
+                <h3 class="page__caption page__caption--force">
+                    Сила хвата:
+                </h3>
+                <p id="info_force" class="page__data page__data--grip-force">
+                    70
+                </p>
+                <h3 class="page__caption page__caption--battery">
+                    Заряд батареи:
+                </h3>
+                <p id="info_power" class="page__data">
+                    50%
+                </p>
+                <h3 class="page__caption page__caption--gesture">
+                    Выбранный жест:
+                </h3>
+                <p class="page__data page__data--gesture">
+                    Коза
+                </p>
+            </div>
+        </div>
+        <div class="page__panel page__panel--info">
+            <h2 class="page__title page__title--info">
+                Информация
+            </h2>
+        </div>
+    </section>
+
+    <section id="top2" class="page page--shadowed hidden">
+        <ul class="page__list page__list--bluetooth" id="bluetooth_list">
+            <li class="page__list-item">
+                Bluetooth-543
+            </li>
+            <li class="page__list-item">
+                Bluetooth-543
+            </li>
+            <li class="page__list-item page__list-item--selected">
+                Bluetooth-1023
+            </li>
+            <li class="page__list-item">
+                Bluetooth-1023
+            </li>
+            <li class="page__list-item">
+                Bluetooth-3214
+            </li>
+        </ul>
+        <div class="page__panel page__panel--bluetooth">
+            <h2 class="page__title page__title--list" id="header_bluetooth">
+                Список устройств<br>
+                Bluetooth
+            </h2>
+        </div>
+    </section>
+
+    <section id="right1" class="page hidden">
+        <div class="container container--control">
+            <div class="page__wrapper page__wrapper--slider">
+                <div id="control-slider"></div>
+            </div>
+        </div>
+        <div class="page__panel page__panel--control">
+            <h2 class="page__title page__title--control">
+                Управление
+            </h2>
+        </div>
+    </section>
+
+    <section id="right2" class="page hidden">
+        <div class="container container--force">
+            <div class="page__wrapper page__wrapper--slider">
+                <div id="force-slider"></div>
+                <!-- <canvas width="324" height="324" id="force-slider"></canvas> -->
+            </div>
+        </div>
+        <div class="page__panel page__panel--force">
+            <h2 class="page__title page__title--force">
+                Сила хвата
+            </h2>
+        </div>
+    </section>
+
+    <section id="right3" class="page page--shadowed lock hidden">
+        <div class="transparent-container transparent-container--locked">
+            <div class="container container--locked">
+                <div class="page__wrapper">
+                    <img class="page__image page__image--locked" src="src/img/locked@2x.svg" alt=""/>
+                    <p class="page__image-caption page__image-caption--locked">
+                        Заблокировано
+                    </p>
+                </div>
+            </div>
+            <div class="page__panel page__panel--locked">
+                <h2 class="page__title page__title--locked">
+                    Блокировка
+                </h2>
+            </div>
+        </div>
+        <div class="transparent-container transparent-container--unlocked">
+            <div class="container container--unlocked">
+                <div class="page__wrapper">
+                    <img class="page__image page__image--unlocked" src="src/img/unlocked@2x.svg" alt=""/>
+                    <p class="page__image-caption page__image-caption--unlocked">
+                        Разблокировано
+                    </p>
+                </div>
+            </div>
+            <div class="page__panel page__panel--unlocked">
+                <h2 class="page__title page__title--unlocked">
+                    Блокировка
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom1" class="page screens hidden">
+        <div class="screens__screens-container">
+            <img class="screens__screen screens__screen--1" src="src/img/screens/squeeze@2x.svg" alt="">
+            <img class="screens__screen screens__screen--2 screens__screen--selected"
+                 src="src/img/screens/enfeeble@2x.svg" alt="">
+            <img class="screens__screen screens__screen--3" src="src/img/screens/info@2x.svg" alt="">
+            <img class="screens__screen screens__screen--7" src="src/img/screens/gestures@2x.svg" alt="">
+            <img class="screens__screen screens__screen--4" src="src/img/screens/control@2x.svg" alt="">
+            <img class="screens__screen screens__screen--5" src="src/img/screens/force@2x.svg" alt="">
+            <img class="screens__screen screens__screen--6" src="src/img/screens/unlocked@2x.svg" alt="">
+        </div>
+        <img class="screens__selected-screen" src="src/img/screens/enfeeble@2x.svg" alt="">
+        <div class="page__panel page__panel--screens" style="box-shadow: rgb(0, 255, 184) 0 50px 200px;">
+            <h2 class="page__title page__title--screens"
+                style="color: rgb(0, 255, 184); text-shadow: rgb(0, 255, 184) 0 0 30px;"
+            >
+                Разжатие
+            </h2>
+            <div class="page__navigation navigation">
+                <span class="navigation__dot navigation__dot--1"></span>
+                <span class="navigation__dot navigation__dot--2 navigation__dot--selected"></span>
+                <span class="navigation__dot navigation__dot--3"></span>
+                <span class="navigation__dot navigation__dot--7"></span>
+                <span class="navigation__dot navigation__dot--4"></span>
+                <span class="navigation__dot navigation__dot--5"></span>
+                <span class="navigation__dot navigation__dot--6"></span>
+            </div>
+        </div>
+    </section>
+
+</main>
+<script src="lib/tau/wearable/js/tau.min.js"></script>
+<script src="node_modules/chart.js/dist/Chart.js"></script>
+<script src="src/js/sliders/jquery.js"></script>
+<script src="src/js/globals.js"></script>
+<script src="src/js/swipes/config.js"></script>
+<script src="src/js/swipes/render.js"></script>
+<script src="src/js/swipes/swipes.js"></script>
+<script src="src/js/charts/_options.js"></script>
+<script src="src/js/charts/squeeze.js"></script>
+<script src="src/js/charts/enfeeble.js"></script>
+<script src="src/js/bezel/index.js"></script>
+<script src="src/js/lock.js"></script>
+<script src="src/js/sliders/draw-slider.js"></script>
+<script src="src/js/sliders/sliders.js"></script>
+<script src="src/js/info/time.js"></script>
+<script src="src/js/info/gripForce.js"></script>
+<script src="src/js/gestures/index.js"></script>
+<script src="src/js/bluetooth/index.js"></script>
+<script src="src/js/bluetooth/crc.js"></script>
+<script src="src/js/bluetooth/bluetooth.js"></script>
+<script src="src/js/bluetooth/conveyor.js"></script>
+<script src="src/js/screens/index.js"></script>
+<script src="src/js/screens/click.js"></script>
+<script src="src/js/charts/threshold.js"></script>
+<script src="src/js/charts/data.js"></script>
+<script src="src/js/charts/alternation.js"></script>
+<script src="src/js/system/close-app.js"></script>
+<script src="src/js/sliders/roundslider.js"></script>
+<script src="src/js/system/close-app.js"></script>
+<script src="src/js/sliders/jquerySlider.js"></script>
+<script src="src/js/storage/storage.js"></script>
+<script src="src/js/wifi/wifi.js"></script>
+<script src="src/js/info/statistics.js"></script>
+<script src="src/js/info/human_activity.js"></script>
+<script src="src/js/system/background.js"></script>
+</body>
+</html>

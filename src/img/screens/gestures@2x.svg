@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L3.172 0L3.172 3.1709L0 3.1709L0 0Z" transform="translate(0.0663 0.8291)" id="path_1" />
+    <path d="M0 0L3.171 0L3.171 3.1709L0 3.1709L0 0Z" transform="translate(0.3437 0.8291)" id="path_2" />
+    <path d="M0 0L3.1709 0L3.1709 3.171L0 3.171L0 0Z" transform="translate(0 0.4785)" id="path_3" />
+    <path d="M0 0L3.1705 0L3.1705 3.171L0 3.171L0 0Z" transform="translate(0.5605 0.4785)" id="path_4" />
+    <path d="M0 0L3.171 0L3.171 3.1704L0 3.1704L0 0Z" transform="translate(0.0702 0.188)" id="path_5" />
+    <path d="M0 0L3.172 0L3.172 3.1704L0 3.1704L0 0Z" transform="translate(0.3466 0.188)" id="path_6" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="mask_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+    <clipPath id="mask_3">
+      <use xlink:href="#path_3" />
+    </clipPath>
+    <clipPath id="mask_4">
+      <use xlink:href="#path_4" />
+    </clipPath>
+    <clipPath id="mask_5">
+      <use xlink:href="#path_5" />
+    </clipPath>
+    <clipPath id="mask_6">
+      <use xlink:href="#path_6" />
+    </clipPath>
+  </defs>
+  <g id="Group-29">
+    <g id="Group-3" transform="translate(6 16)">
+      <path d="M0 0L3.172 0L3.172 3.1709L0 3.1709L0 0Z" transform="translate(0.0663 0.8291)" id="Clip-2" fill="none" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <path d="M1.586 0C0.712 0 0 0.712 0 1.586C0 2.46 0.712 3.171 1.586 3.171C2.46 3.171 3.172 2.46 3.172 1.586C3.172 0.712 2.46 0 1.586 0" transform="translate(0.0663 0.8291)" id="Fill-1" fill="#FEFEFE" stroke="none" />
+      </g>
+    </g>
+    <g id="Group-6" transform="translate(11 16)">
+      <path d="M0 0L3.171 0L3.171 3.1709L0 3.1709L0 0Z" transform="translate(0.3437 0.8291)" id="Clip-5" fill="none" stroke="none" />
+      <g clip-path="url(#mask_2)">
+        <path d="M1.585 0C0.711 0 0 0.712 0 1.586C0 2.46 0.711 3.171 1.585 3.171C2.459 3.171 3.171 2.46 3.171 1.586C3.171 0.712 2.459 0 1.585 0" transform="translate(0.3437 0.8291)" id="Fill-4" fill="#FEFEFE" stroke="none" />
+      </g>
+    </g>
+    <path d="M1.586 0C0.712 0 0 0.712 0 1.586C0 2.46 0.712 3.171 1.586 3.171C2.46 3.171 3.172 2.46 3.172 1.586C3.172 0.712 2.46 0 1.586 0" transform="translate(15.85541 13.5771)" id="Fill-7" fill="#FEFEFE" stroke="none" />
+    <path d="M1.586 0C0.712 0 0 0.712 0 1.586C0 2.46 0.712 3.171 1.586 3.171C2.46 3.171 3.171 2.46 3.171 1.586C3.171 0.712 2.46 0 1.586 0" transform="translate(1.697205 13.5771)" id="Fill-9" fill="#FEFEFE" stroke="none" />
+    <g id="Group-13" transform="translate(0 8)">
+      <path d="M0 0L3.1709 0L3.1709 3.171L0 3.171L0 0Z" transform="translate(0 0.4785)" id="Clip-12" fill="none" stroke="none" />
+      <g clip-path="url(#mask_3)">
+        <path d="M3.171 1.586C3.171 0.712 2.459 0 1.585 0C0.711 0 0 0.712 0 1.586C0 2.46 0.711 3.171 1.585 3.171C2.459 3.171 3.171 2.46 3.171 1.586" transform="translate(-0.0001 0.4785)" id="Fill-11" fill="#FEFEFE" stroke="none" />
+      </g>
+    </g>
+    <g id="Group-16" transform="translate(17 8)">
+      <path d="M0 0L3.1705 0L3.1705 3.171L0 3.171L0 0Z" transform="translate(0.5605 0.4785)" id="Clip-15" fill="none" stroke="none" />
+      <g clip-path="url(#mask_4)">
+        <path d="M1.586 0C0.712 0 0 0.712 0 1.586C0 2.46 0.712 3.171 1.586 3.171C2.46 3.171 3.171 2.46 3.171 1.586C3.171 0.712 2.46 0 1.586 0" transform="translate(0.5605 0.4785)" id="Fill-14" fill="#FEFEFE" stroke="none" />
+      </g>
+    </g>
+    <g id="Group-19" transform="translate(6 0)">
+      <path d="M0 0L3.171 0L3.171 3.1704L0 3.1704L0 0Z" transform="translate(0.0702 0.188)" id="Clip-18" fill="none" stroke="none" />
+      <g clip-path="url(#mask_5)">
+        <path d="M1.586 3.171C2.46 3.171 3.171 2.46 3.171 1.586C3.171 0.712 2.46 0 1.586 0C0.712 0 0 0.712 0 1.586C0 2.46 0.712 3.171 1.586 3.171" transform="translate(0.0702 0.1874)" id="Fill-17" fill="#FEFEFE" stroke="none" />
+      </g>
+    </g>
+    <g id="Group-22" transform="translate(11 0)">
+      <path d="M0 0L3.172 0L3.172 3.1704L0 3.1704L0 0Z" transform="translate(0.3466 0.188)" id="Clip-21" fill="none" stroke="none" />
+      <g clip-path="url(#mask_6)">
+        <path d="M1.586 3.171C2.46 3.171 3.172 2.46 3.172 1.586C3.172 0.712 2.46 0 1.586 0C0.712 0 0 0.712 0 1.586C0 2.46 0.712 3.171 1.586 3.171" transform="translate(0.3466 0.1874)" id="Fill-20" fill="#FEFEFE" stroke="none" />
+      </g>
+    </g>
+    <path d="M1.586 3.171C2.46 3.171 3.171 2.46 3.171 1.586C3.171 0.712 2.46 0 1.586 0C0.712 0 0 0.712 0 1.586C0 2.46 0.712 3.171 1.586 3.171" transform="translate(15.85931 3.439407)" id="Fill-23" fill="#FEFEFE" stroke="none" />
+    <path d="M1.585 0C0.711 0 0 0.712 0 1.586C0 2.46 0.711 3.171 1.585 3.171C2.459 3.171 3.171 2.46 3.171 1.586C3.171 0.712 2.459 0 1.585 0" transform="translate(1.701111 3.439499)" id="Fill-25" fill="#FEFEFE" stroke="none" />
+    <path d="M0 4.25C0 1.906 1.907 0 4.249 0C6.593 0 8.499 1.906 8.499 4.25C8.499 6.594 6.593 8.5 4.249 8.5C1.907 8.5 0 6.594 0 4.25ZM4.249 6.595C5.542 6.595 6.595 5.543 6.595 4.25C6.595 2.957 5.542 1.905 4.249 1.905C2.956 1.905 1.905 2.957 1.905 4.25C1.905 5.543 2.956 6.595 4.249 6.595Z" transform="translate(6.115906 5.843796)" id="Fill-27" fill="#FEFEFE" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
