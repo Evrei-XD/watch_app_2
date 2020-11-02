@@ -186,21 +186,21 @@ function checkCompleteness() {
         }
     } else {
         if (currentStatistics.data["1_48"].comp_val === -1) {
-            addBluetoothCommandToConveyor('0xFA 0x01 0x26 0xBB');
+            //addBluetoothCommandToConveyor('0xFA 0x01 0x26 0xBB');
             isCompleteness = false;
         }
         if (currentStatistics.data["1_48"].de_comp_val === -1) {
-            addBluetoothCommandToConveyor('0xFA 0x01 0x27 0x8A');
+            //addBluetoothCommandToConveyor('0xFA 0x01 0x27 0x8A');
             isCompleteness = false;
         }
         for (let i = 1; i < 8; i++) {
             if (currentStatistics.data["2_47"]["ch" + i] === -1 || currentStatistics.data["3_47"]["ch" + i] === -1) {
-                addBluetoothCommandToConveyor('0xFA 0x01 0x29 0x95');
+                //addBluetoothCommandToConveyor('0xFA 0x01 0x29 0x95');
                 isCompleteness = false;
             }
         }
         if (currentStatistics.data["4_46"].ch === -1) {
-            addBluetoothCommandToConveyor('0xFA 0x01 0x31 0x46');
+            //addBluetoothCommandToConveyor('0xFA 0x01 0x31 0x46');
             isCompleteness = false;
         }
     }

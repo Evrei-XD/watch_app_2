@@ -35,7 +35,7 @@ const moveSqueezeThreshold = () => {
       let tmpSqueeze1 = '0x' + tmpSqueeze.substring(0, 2);
       let tmpSqueeze2 = '0x' + tmpSqueeze.substring(2);
       let tmpMessage = '0xFA 0x02 0x26 ' + tmpSqueeze1 + ' ' + tmpSqueeze2;
-      addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
+//      addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
     }, 400);
   }
 };
@@ -70,7 +70,7 @@ const moveEnfeebleThreshold = () => {
       let tmpEnfeeble1 = '0x' + tmpEnfeeble.substring(0, 2);
       let tmpEnfeeble2 = '0x' + tmpEnfeeble.substring(2);
       let tmpMessage = '0xFA 0x02 0x27 ' + tmpEnfeeble1 + ' ' + tmpEnfeeble2;
-      addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
+//      addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
     }, 400);
   }
 };
@@ -95,7 +95,7 @@ document.querySelector(`#chart-enfeeble`).addEventListener(`click`, (evt) => {
   let tmpEnfeeble1 = '0x' + tmpEnfeeble.substring(0, 2);
   let tmpEnfeeble2 = '0x' + tmpEnfeeble.substring(2);
   let tmpMessage = '0xFA 0x02 0x27 ' + tmpEnfeeble1 + ' ' + tmpEnfeeble2;
-  addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
+//  addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
 });
 
 document.querySelector(`#chart-squeeze`).addEventListener(`click`, (evt) => {
@@ -116,5 +116,5 @@ document.querySelector(`#chart-squeeze`).addEventListener(`click`, (evt) => {
   let tmpSqueeze1 = '0x' + tmpSqueeze.substring(0, 2);
   let tmpSqueeze2 = '0x' + tmpSqueeze.substring(2);
   let tmpMessage = '0xFA 0x02 0x26 ' + tmpSqueeze1 + ' ' + tmpSqueeze2;
-  addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
+//  addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
 });

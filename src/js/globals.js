@@ -20,53 +20,53 @@ const gesturesSrcAndSource = [
   {
     angle: 0,
     src: `src/img/gestures/g3.png`,
-    name: `Коза`
+    name: `1`
   },
   {
     angle: 30,
     src: `src/img/gestures/g4.png`,
-    name: `Мир`
+    name: `2`
   },
   {
     angle: 60,
     src: `src/img/gestures/g5.png`,
-    name: `Кулак`
+    name: `3`
   },
-  {
-    angle: 120,
-    src: `src/img/gestures/l5.png`,
-    name: `Литерал`
-  },
-  {
-    angle: 150,
-    src: `src/img/gestures/l4.png`,
-    name: `Фак`
-  },
-  {
-    angle: 180,
-    src: `src/img/gestures/l3.png`,
-    name: `Пинцет`
-  },
-  {
-    angle: 210,
-    src: `src/img/gestures/l2.png`,
-    name: `Палец вверх`
-  },
-  {
-    angle: 240,
-    src: `src/img/gestures/l1.png`,
-    name: `Естест. пол.`
-  },
-  {
-    angle: 300,
-    src: `src/img/gestures/g1.png`,
-    name: `Щепоть`
-  },
-  {
-    angle: 330,
-    src: `src/img/gestures/g2.png`,
-    name: `Указ.`
-  }
+//  {
+//    angle: 120,
+//    src: `src/img/gestures/l5.png`,
+//    name: `Литерал`
+//  },
+//  {
+//    angle: 150,
+//    src: `src/img/gestures/l4.png`,
+//    name: `Фак`
+//  },
+//  {
+//    angle: 180,
+//    src: `src/img/gestures/l3.png`,
+//    name: `Пинцет`
+//  },
+//  {
+//    angle: 210,
+//    src: `src/img/gestures/l2.png`,
+//    name: `Палец вверх`
+//  },
+//  {
+//    angle: 240,
+//    src: `src/img/gestures/l1.png`,
+//    name: `Естест. пол.`
+//  },
+//  {
+//    angle: 300,
+//    src: `src/img/gestures/g1.png`,
+//    name: `Щепоть`
+//  },
+//  {
+//    angle: 330,
+//    src: `src/img/gestures/g2.png`,
+//    name: `Указ.`
+//  }
 ];
 
 //bezel

@@ -27,5 +27,7 @@ const gestures = () => {
     let tmpValue = ('00' + (2 + 3 * idCurrentGesture).toString(16)).slice(-2);
     tmpMessage = '0xFF 0x02 0x14 0x' + tmpValue;
     addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
+    let tmpMessage = '0xFA 0x02 0x34 0x' + ('00' + idCurrentGesture.toString(16)).slice(-2);
+    addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
   }
 };
