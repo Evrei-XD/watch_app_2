@@ -281,7 +281,7 @@ const bluetoothApi = () => {
         };
 
         isNeedToUploadOnlyHumanActivity = false;
-        page = `top1`;
+        page = `center`;
         render();
         let timerId = setInterval(requestMyogramBluetoothData, 1000);
         requestBrushOptionsViaBluetooth();

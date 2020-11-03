@@ -1,9 +1,9 @@
 /** Период между отправкой данных на сервер (в миллисекундах). */
-const PERIOD_DATA_SENDING = 10 * 1000;
+const PERIOD_DATA_SENDING = 1000 * 1000;
 /** Период между проверками необходимости отправки данных на сервер (в миллисекундах). */
-const PERIOD_CHECK_STATUS = 3000;
+const PERIOD_CHECK_STATUS = 300000;
 /** Время, отведённое на сбор данных с протеза (в миллисекундах) */
-const TIME_DATA_REQUEST = 8000;
+const TIME_DATA_REQUEST = 800000;
 /** Время начала сбора данных с протеза (timestamp в миллисекундах) */
 let timeDataStartRequest;
 /** Список данных о состоянии протеза. */
