@@ -1,5 +1,5 @@
 /** Период между отправкой Bluetooth-команд (в миллисекундах). */
-const PERIOD_MESSAGE_SENDING = 300;
+const PERIOD_MESSAGE_SENDING = 400;
 /** Таймер для работы конвейера. */
 let timerConveyor;
 /** Состояние конвейера. */
