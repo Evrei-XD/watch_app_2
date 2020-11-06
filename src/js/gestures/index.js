@@ -22,17 +22,17 @@ const gestures = () => {
     idCurrentGesture =
       (gesturesSrcAndSource.length + (gesture % gesturesSrcAndSource.length)) %
       gesturesSrcAndSource.length; 
-//    let tmpMessage = '0xFF 0x02 0x14 0x' + ('00' + (6 + idCurrentGesture).toString(16)).slice(-3);
+    let tmpMessage = '0xFF 0x02 0x14 0x' + ('00' + (6 + idCurrentGesture).toString(16)).slice(-2);
 //    addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
-    let tmpValue = ('00' + (1 + idCurrentGesture).toString(16)).slice(-3);
-    tmpMessage = '0xFA 0x02 0x34 0x' + tmpValue;
+//    let tmpValue = ('00' + (1 + idCurrentGesture).toString(16)).slice(-2);
+//    tmpMessage = '0xFA 0x02 0x34 0x' + tmpValue;
     addBluetoothCommandToConveyor(tmpMessage + ' ' + getCrc(tmpMessage));
     
-    let tmpValue2 = ('00' + (1 + idCurrentGesture).toString(16)).slice(-3);
+    let tmpValue2 = ('00' + (1 + idCurrentGesture).toString(16)).slice(-2);
     tmpMessage2 = '0xFA 0x02 0x34 0x' + tmpValue2;
     addBluetoothCommandToConveyor(tmpMessage2 + ' ' + getCrc(tmpMessage2));
     
-    let tmpValue3 = ('00' + (1 + idCurrentGesture).toString(16)).slice(-3);
+    let tmpValue3 = ('00' + (1 + idCurrentGesture).toString(16)).slice(-2);
     tmpMessage3 = '0xFA 0x02 0x34 0x' + tmpValue3;
     addBluetoothCommandToConveyor(tmpMessage3 + ' ' + getCrc(tmpMessage3));
   }

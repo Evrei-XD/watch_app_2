@@ -20,17 +20,17 @@ const gesturesSrcAndSource = [
   {
     angle: 0,
     src: `src/img/gestures/g3.png`,
-    name: `1`
+    name: `щёпоть`
   },
   {
     angle: 30,
     src: `src/img/gestures/g4.png`,
-    name: `2`
+    name: `коза`
   },
   {
     angle: 60,
     src: `src/img/gestures/g5.png`,
-    name: `3`
+    name: `конфуций`
   },
 //  {
 //    angle: 120,
